@@ -1,0 +1,764 @@
+20 [main] INFO nl.utwente.fmt.rers.Main - multiplier is: 1.0
+20 [main] INFO nl.utwente.fmt.rers.Main - minimum unfolds is : 3
+659 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #1: (false R ((letter == "P") && (!!(letter == "W") || ((!(letter == "I") || (!(letter == "W") U ((letter == "Y") && !(letter == "W")))) W (letter == "W")))))
+662 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #2: (false R ((letter == "B") && (!!(letter == "F") || ((!(letter == "D") || (!(letter == "F") U ((letter == "Z") && !(letter == "F")))) W (letter == "F")))))
+663 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #3: (!(true U ((letter == "O") && X (true U (letter == "Z")))) || (!(letter == "O") U (letter == "C")))
+665 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #4: ((false R !(letter == "T")) || (!(letter == "T") U ((letter == "T") && (!(true U (letter == "S")) || (!(letter == "S") U (((letter == "B") && !(letter == "S")) && X (!(letter == "S") U (letter == "Q"))))))))
+666 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #5: (!(true U (letter == "U")) || (!(((letter == "X") && !(letter == "U")) && X (!(letter == "U") U ((letter == "W") && !(letter == "U")))) U ((letter == "U") || (letter == "E"))))
+668 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #6: (false R (!((letter == "F") && (true U (letter == "W"))) || (((letter == "E") && (!X (!(letter == "W") U (letter == "H")) || X (!(letter == "W") U ((letter == "H") && (true U (letter == "Q")))))) U (letter == "W"))))
+671 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #7: (false R (!((letter == "Z") && (true U (letter == "I"))) || (((letter == "H") && (!X (!(letter == "I") U (letter == "D")) || X (!(letter == "I") U ((letter == "D") && (true U (letter == "W")))))) U (letter == "I"))))
+672 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #8: (false R (!(letter == "R") || (false R (!(letter == "E") || ((letter == "O") && X (true U (letter == "V")))))))
+673 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #9: ((false R !(letter == "E")) || (!(letter == "E") U ((letter == "E") && (!(true U ((letter == "R") && X (true U (letter == "O")))) || (!(letter == "R") U (letter == "P"))))))
+674 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #10: ((false R !(letter == "V")) || (!(letter == "V") U ((letter == "V") && (!(true U ((letter == "W") && X (true U (letter == "R")))) || (!(letter == "W") U (letter == "A"))))))
+674 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #11: (false R (!(letter == "H") || (true U ((letter == "V") && X (true U (letter == "U"))))))
+675 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #12: ((false R !(letter == "H")) || (!(letter == "H") U ((letter == "H") && (!(true U ((letter == "S") && X (true U (letter == "X")))) || (!(letter == "S") U (letter == "V"))))))
+677 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #13: (false R (!((letter == "P") && (true U (letter == "S"))) || (!(((letter == "Z") && !(letter == "S")) && X (!(letter == "S") U ((letter == "R") && !(letter == "S")))) U ((letter == "S") || (letter == "O")))))
+678 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #14: (false R (!(letter == "F") || ((!(letter == "C") || (!(letter == "O") U ((((letter == "Y") && !(letter == "O")) && !(letter == "R")) && X ((!(letter == "O") && !(letter == "R")) U (letter == "T"))))) U ((letter == "O") || (false R (!(letter == "C") || (((letter == "Y") && !(letter == "R")) && X (!(letter == "R") U (letter == "T")))))))))
+679 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #15: (!(true U (letter == "T")) || (!(letter == "Z") U ((letter == "P") || (letter == "T"))))
+680 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #16: (false R (!(letter == "H") || ((!(letter == "E") || (!(letter == "X") U (((letter == "U") && !(letter == "X")) && X (!(letter == "X") U (letter == "V"))))) U ((letter == "X") || (false R (!(letter == "E") || ((letter == "U") && X (true U (letter == "V")))))))))
+681 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #17: (false R (!(letter == "C") || ((!(letter == "I") || (!(letter == "U") U (((letter == "Q") && !(letter == "U")) && X (!(letter == "U") U (letter == "O"))))) U ((letter == "U") || (false R (!(letter == "I") || ((letter == "Q") && X (true U (letter == "O")))))))))
+682 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #18: (!(true U (letter == "F")) || (((letter == "G") && (!X (!(letter == "F") U (letter == "B")) || X (!(letter == "F") U ((letter == "B") && (true U (letter == "V")))))) U (letter == "F")))
+683 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #19: (false R (!(letter == "H") || ((!(letter == "C") || (!(letter == "O") U ((((letter == "X") && !(letter == "O")) && !(letter == "P")) && X ((!(letter == "O") && !(letter == "P")) U (letter == "Y"))))) U ((letter == "O") || (false R (!(letter == "C") || (((letter == "X") && !(letter == "P")) && X (!(letter == "P") U (letter == "Y")))))))))
+684 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #20: ((false R !(letter == "E")) || (!(letter == "E") U ((letter == "E") && (!(true U ((letter == "V") && X (true U (letter == "Q")))) || (!(letter == "V") U (letter == "W"))))))
+685 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #21: (!(true U (letter == "P")) || (!(letter == "S") U ((letter == "W") || (letter == "P"))))
+685 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #22: (!(true U (letter == "G")) || (!(letter == "W") U ((letter == "Q") || (letter == "G"))))
+686 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #23: (false R (!((letter == "C") && (true U (letter == "A"))) || (!(letter == "V") U ((letter == "A") || (((letter == "P") && !(letter == "V")) && X (!(letter == "V") U (letter == "X")))))))
+687 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #24: (false R (!(letter == "G") || (false R (!(letter == "H") || ((letter == "T") && X (true U (letter == "Q")))))))
+688 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #25: (false R (!((letter == "F") && (true U (letter == "A"))) || (!(letter == "O") U ((letter == "A") || (((letter == "U") && !(letter == "O")) && X (!(letter == "O") U (letter == "B")))))))
+688 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #26: (false R (!((letter == "O") && (true U (letter == "T"))) || (!(((letter == "S") && !(letter == "T")) && X (!(letter == "T") U ((letter == "W") && !(letter == "T")))) U ((letter == "T") || (letter == "V")))))
+689 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #27: (false R (!(letter == "I") || (true U ((letter == "P") && X (true U (letter == "Q"))))))
+689 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #28: (!(true U (letter == "Q")) || ((!(letter == "D") || (!(letter == "Q") U ((letter == "P") && !(letter == "Q")))) U (letter == "Q")))
+690 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #29: (false R (!((letter == "R") && (true U (letter == "Q"))) || (!(letter == "W") U ((letter == "Q") || (((letter == "X") && !(letter == "W")) && X (!(letter == "W") U (letter == "E")))))))
+690 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #30: (false R (!(letter == "D") || (true U ((letter == "W") && X (true U (letter == "P"))))))
+690 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #31: (false R (!(letter == "A") || (true U ((letter == "X") && X (true U (letter == "Q"))))))
+691 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #32: (false R (!(letter == "O") || ((!(letter == "C") || (!(letter == "G") U (((letter == "V") && !(letter == "G")) && X (!(letter == "G") U (letter == "Q"))))) U ((letter == "G") || (false R (!(letter == "C") || ((letter == "V") && X (true U (letter == "Q")))))))))
+691 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #33: (false R (!((letter == "J") && (true U (letter == "E"))) || (!(letter == "O") U ((letter == "E") || (((letter == "P") && !(letter == "O")) && X (!(letter == "O") U (letter == "Z")))))))
+691 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #34: (false R (!(letter == "S") || (!(true U (letter == "T")) || (!(letter == "T") U ((letter == "V") || (((letter == "C") && !(letter == "T")) && X (!(letter == "T") U (letter == "Q"))))))))
+692 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #35: ((false R !(letter == "O")) || (!(letter == "O") U ((letter == "O") && (!(true U ((letter == "R") && X (true U (letter == "X")))) || (!(letter == "R") U (letter == "Q"))))))
+692 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #36: (false R (!(letter == "D") || (!(true U (letter == "Q")) || (!(letter == "Q") U ((letter == "B") || (((letter == "C") && !(letter == "Q")) && X (!(letter == "Q") U (letter == "Y"))))))))
+693 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #37: (false R (!(letter == "D") || ((!(letter == "E") || (!(letter == "Y") U (((letter == "V") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "T"))))) U ((letter == "Y") || (false R (!(letter == "E") || ((letter == "V") && X (true U (letter == "T")))))))))
+693 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #38: (false R (!(letter == "A") || (false R ((letter == "B") && (!X (true U (letter == "F")) || X (!(letter == "F") U ((letter == "F") && (true U (letter == "Q")))))))))
+693 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #39: (!(letter == "S") W (letter == "X"))
+694 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #40: (false R ((letter == "S") && (!!(letter == "H") || ((!(letter == "A") || (!(letter == "H") U ((letter == "T") && !(letter == "H")))) W (letter == "H")))))
+694 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #41: (false R (!((letter == "P") && (true U (letter == "Z"))) || (((letter == "A") && (!X (!(letter == "Z") U (letter == "J")) || X (!(letter == "Z") U ((letter == "J") && (true U (letter == "V")))))) U (letter == "Z"))))
+694 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #42: (!(true U (letter == "J")) || (!(letter == "Z") U ((letter == "J") || (((letter == "W") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "I"))))))
+695 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #43: (false R (!(letter == "H") || (true U ((letter == "T") && X (true U (letter == "S"))))))
+695 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #44: ((false R !(letter == "I")) || (!(letter == "I") U ((letter == "I") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "U") && !(letter == "W")) && X (!(letter == "W") U (letter == "Y"))))))))
+696 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #45: (!(true U (letter == "H")) || ((!(letter == "E") || (!(letter == "H") U ((letter == "S") && !(letter == "H")))) U (letter == "H")))
+696 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #46: (false R (!(((letter == "Q") && !(letter == "B")) && (true U (letter == "B"))) || (!(letter == "W") U ((letter == "O") || (letter == "B")))))
+696 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #47: (false R (!(((letter == "U") && !(letter == "O")) && (true U (letter == "O"))) || (!(letter == "S") U ((letter == "Y") || (letter == "O")))))
+696 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #48: (!(true U (letter == "A")) || (!(letter == "W") U ((letter == "C") || (letter == "A"))))
+697 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #49: (!(true U (letter == "A")) || (!(letter == "T") U ((letter == "D") || (letter == "A"))))
+697 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #50: (!(letter == "Q") W (letter == "C"))
+698 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #51: (!(true U (letter == "Z")) || (!(letter == "Z") U (((letter == "S") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "X")))))
+698 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #52: (!(letter == "W") W (letter == "J"))
+698 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #53: (false R (!(letter == "Q") || (!(true U (letter == "Y")) || (!(letter == "Y") U ((letter == "X") || (((letter == "Z") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "B"))))))))
+699 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #54: (false R (!(letter == "S") || (false R ((letter == "J") && (!X (true U (letter == "I")) || X (!(letter == "I") U ((letter == "I") && (true U (letter == "Z")))))))))
+699 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #55: (!(true U (letter == "H")) || (!(((letter == "O") && !(letter == "H")) && X (!(letter == "H") U ((letter == "R") && !(letter == "H")))) U ((letter == "H") || (letter == "W"))))
+699 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #56: (false R (!((letter == "J") && (true U (letter == "H"))) || (!(((letter == "Q") && !(letter == "H")) && X (!(letter == "H") U ((letter == "V") && !(letter == "H")))) U ((letter == "H") || (letter == "D")))))
+700 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #57: (!(true U (letter == "Q")) || (!(letter == "Q") U (((letter == "U") && !(letter == "Q")) && X (!(letter == "Q") U (letter == "A")))))
+700 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #58: (false R (!(letter == "F") || (true U ((letter == "Q") && X (true U (letter == "P"))))))
+700 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #59: (false R (!(letter == "G") || (false R (!(letter == "J") || (true U (letter == "W"))))))
+700 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #60: (!(true U (letter == "V")) || (!(((letter == "O") && !(letter == "V")) && X (!(letter == "V") U ((letter == "Z") && !(letter == "V")))) U ((letter == "V") || (letter == "B"))))
+701 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #61: (false R (!(((letter == "I") && !(letter == "D")) && (true U (letter == "D"))) || (!(letter == "R") U ((letter == "F") || (letter == "D")))))
+701 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #62: ((false R !(letter == "W")) || (!(letter == "W") U ((letter == "W") && (!(true U ((letter == "Z") && X (true U (letter == "X")))) || (!(letter == "Z") U (letter == "I"))))))
+702 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #63: ((false R !(letter == "E")) || (true U ((letter == "E") && (!(letter == "Z") W (letter == "T")))))
+703 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #64: (false R ((letter == "B") && (!!(letter == "F") || ((!(letter == "C") || (!(letter == "F") U ((letter == "X") && !(letter == "F")))) W (letter == "F")))))
+703 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #65: ((false R !(letter == "Z")) || (true U ((letter == "Z") && (!(letter == "V") W (letter == "O")))))
+703 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #66: (!(true U (letter == "B")) || ((!(letter == "A") || (!(letter == "B") U (((letter == "X") && !(letter == "B")) && X (!(letter == "B") U (letter == "S"))))) U (letter == "B")))
+704 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #67: ((false R !(letter == "S")) || (!(letter == "S") U ((letter == "S") && (!(true U (letter == "P")) || (!(letter == "P") U (((letter == "O") && !(letter == "P")) && X (!(letter == "P") U (letter == "I"))))))))
+704 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #68: (false R (!(letter == "V") || (false R (!(letter == "C") || (((letter == "S") && !(letter == "T")) && X (!(letter == "T") U (letter == "Z")))))))
+704 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #69: (!(letter == "V") W (letter == "W"))
+705 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #70: (!(true U (letter == "X")) || (((letter == "I") && (!X (!(letter == "X") U (letter == "H")) || X (!(letter == "X") U ((letter == "H") && (true U (letter == "Z")))))) U (letter == "X")))
+705 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #71: ((false R !(letter == "J")) || (true U ((letter == "J") && (!(letter == "R") W (letter == "C")))))
+705 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #72: (false R (!(((letter == "B") && !(letter == "Q")) && (true U (letter == "Q"))) || (!(letter == "S") U ((letter == "Z") || (letter == "Q")))))
+706 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #73: (false R (!(((letter == "I") && !(letter == "P")) && (true U (letter == "P"))) || ((!(letter == "E") || (!(letter == "P") U ((letter == "S") && !(letter == "P")))) U (letter == "P"))))
+706 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #74: (false R (!(letter == "S") || ((!(letter == "J") || (!(letter == "Z") U ((((letter == "X") && !(letter == "Z")) && !(letter == "R")) && X ((!(letter == "Z") && !(letter == "R")) U (letter == "U"))))) U ((letter == "Z") || (false R (!(letter == "J") || (((letter == "X") && !(letter == "R")) && X (!(letter == "R") U (letter == "U")))))))))
+706 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #75: (false R (!(letter == "I") || (true U (letter == "W"))))
+706 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #76: (!(true U (letter == "O")) || (!(letter == "X") U ((letter == "E") || (letter == "O"))))
+707 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #77: (!(true U (letter == "X")) || (!(letter == "S") U ((letter == "Z") || (letter == "X"))))
+707 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #78: (!(true U (letter == "S")) || (!(letter == "V") U ((letter == "S") || (((letter == "O") && !(letter == "V")) && X (!(letter == "V") U (letter == "G"))))))
+707 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #79: (false R (!((letter == "G") && (true U (letter == "O"))) || ((!(letter == "B") || (!(letter == "O") U (((letter == "Z") && !(letter == "O")) && X (!(letter == "O") U (letter == "X"))))) U (letter == "O"))))
+707 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #80: (!(true U ((letter == "U") && X (true U (letter == "Y")))) || (!(letter == "U") U (letter == "E")))
+708 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #81: (!(true U (letter == "O")) || ((!(letter == "C") || (!(letter == "O") U ((letter == "U") && !(letter == "O")))) U (letter == "O")))
+708 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #82: (false R (!(letter == "T") || (false R (!(letter == "E") || ((letter == "S") && X (true U (letter == "Z")))))))
+708 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #83: (!(true U ((letter == "T") && X (true U (letter == "Y")))) || (!(letter == "T") U (letter == "W")))
+708 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #84: (false R (!(letter == "E") || (true U (((letter == "S") && !(letter == "X")) && X (!(letter == "X") U (letter == "T"))))))
+710 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #85: ((false R !(letter == "X")) || (!(letter == "X") U ((letter == "X") && (!(true U (letter == "S")) || (!(letter == "S") U (((letter == "B") && !(letter == "S")) && X (!(letter == "S") U (letter == "I"))))))))
+710 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #86: (false R (!(letter == "E") || (true U ((letter == "Y") && X (true U (letter == "S"))))))
+710 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #87: (false R (!((letter == "D") && (true U (letter == "Y"))) || (((letter == "E") && (!X (!(letter == "Y") U (letter == "I")) || X (!(letter == "Y") U ((letter == "I") && (true U (letter == "P")))))) U (letter == "Y"))))
+711 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #88: (false R (!((letter == "A") && (true U (letter == "W"))) || (!(letter == "O") U ((letter == "W") || (((letter == "Z") && !(letter == "O")) && X (!(letter == "O") U (letter == "E")))))))
+711 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #89: (!(true U (letter == "O")) || ((!(letter == "D") || (!(letter == "O") U ((((letter == "V") && !(letter == "O")) && !(letter == "T")) && X ((!(letter == "O") && !(letter == "T")) U (letter == "S"))))) U (letter == "O")))
+711 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #90: (false R (!(letter == "Z") || ((!(((letter == "W") && !(letter == "C")) && X (!(letter == "C") U ((letter == "S") && !(letter == "C")))) U ((letter == "C") || (letter == "U"))) || (false R !((letter == "W") && X (true U (letter == "S")))))))
+712 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #91: ((false R !(letter == "Z")) || (!(letter == "Z") U ((letter == "Z") && (!(true U ((letter == "X") && X (true U (letter == "Q")))) || (!(letter == "X") U (letter == "D"))))))
+712 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #92: (false R (!(letter == "E") || (true U (letter == "S"))))
+712 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #93: (false R ((letter == "H") && (!X (true U (letter == "B")) || X (true U ((letter == "B") && (true U (letter == "V")))))))
+712 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #94: (!(true U (letter == "P")) || (((letter == "E") && (!X (!(letter == "P") U (letter == "H")) || X (!(letter == "P") U ((letter == "H") && (true U (letter == "U")))))) U (letter == "P")))
+713 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #95: (false R (!(letter == "C") || (true U ((letter == "W") && X (true U (letter == "P"))))))
+713 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #96: (false R (!(letter == "H") || (true U ((letter == "V") && X (true U (letter == "Y"))))))
+713 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #97: (!(true U (letter == "V")) || (!(letter == "P") U ((letter == "V") || (((letter == "C") && !(letter == "P")) && X (!(letter == "P") U (letter == "A"))))))
+713 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #98: ((false R !(letter == "D")) || (true U ((letter == "D") && (!(letter == "S") W (letter == "U")))))
+714 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #99: (false R (!(letter == "R") || (((letter == "D") && (!X (!(letter == "F") U (letter == "B")) || X (!(letter == "F") U ((letter == "B") && (true U (letter == "T")))))) U ((letter == "F") || (false R ((letter == "D") && (!X (!(letter == "F") U (letter == "B")) || X (!(letter == "F") U ((letter == "B") && (true U (letter == "T")))))))))))
+714 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #100: ((false R !(letter == "B")) || (!(letter == "B") U ((letter == "B") && (!(true U (letter == "Y")) || (!(letter == "Y") U (((letter == "A") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "C"))))))))
+808 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+850 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F F / V ]
+864 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+883 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D F / V U P ]
+886 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+894 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D G F / V U P W ]
+900 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+917 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J B J F / V U P W Z W ]
+920 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+935 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F I F / V U P W T V ]
+984 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+987 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I G F / V U Z P  ]
+988 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+989 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H C F / V U Z X  ]
+991 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+994 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J G F / V U Z P X R ]
+997 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+999 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A G F / V U U Q U R ]
+1000 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1002 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I G J F / V U U Q R U  X]
+1005 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1006 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A G C F / V U U Q U R  ]
+1010 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1011 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C I H F / V U P W T Z T  Y]
+1013 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1016 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I G D F G F / V U U Q R U P R  ]
+1018 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1019 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D B F / V U P W T V T  ]
+1020 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1022 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A D D F / V U U Q U X T U]
+1023 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1024 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A I H F / V U U Q U X  ]
+1029 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1032 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I H J C F / V U U Q R U Z  ]
+1035 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1037 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A G J C F / V U U Q U R Y X ]
+1038 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1040 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A D D J F / V U U Q U X T  U]
+1041 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1046 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G F / V U Z P V Z Q]
+1053 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1055 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C D B B C F / V U P W T Z U W Y  R]
+1057 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1059 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A D D G D B F / V U U Q U X T W T  ]
+1065 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1073 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A I G B I G F / V U U Q U X V V W  ]
+1076 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1084 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A J F / V U U Q R X Y Q]
+1086 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1088 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A H J F / V U U Q R X R T T]
+1092 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1103 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A G J F / V U Z P X R R T ]
+1106 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1115 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G I J J F / V U Z P V Z P Z W U]
+1116 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1118 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G I J C B F / V U Z P V Z P Z X  ]
+1120 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1127 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H D F / V U U Q X Z ]
+1129 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1137 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A B D F / V U Z P X R R Y ]
+1138 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1148 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I H J I F / V U U Q R U Z U Z]
+1150 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1166 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G A H J H F / V U Z P V Z T Q X W ]
+1167 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1185 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A G F B F / V U Z P X R R P  ]
+1188 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1209 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C G J G F F / V U P W T Z X Z R Y Y]
+1210 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1232 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A I G J F F / V U U Q U X V W W T]
+1233 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1257 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G I J J F F / V U Z P V Z P Z W U U]
+1258 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1286 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I H J I F F / V U U Q R U Z U Z V]
+1288 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1294 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I H J I H G F / V U U Q R U Z U T P P]
+1298 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1323 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G I J B F F F / V U Z P V Z P Z Y Z T Z]
+1324 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1356 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B F F / V U U Q Y V X]
+1357 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1358 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G B F / V U U Q Y Y T ]
+1359 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1374 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G H C F / V U U Q Y Y X Q ]
+1376 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1416 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A I G J A F F / V U U Q U X V W P X Z]
+1418 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1456 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C G J G A F F / V U P W T Z X Z R Q Q V]
+1458 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1502 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C D B B D A F F / V U P W T Z U W Y V Y Y Y]
+1503 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1552 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G F G F / V U U Q Y Y Z  ]
+1556 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1561 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G F A G G F / V U U Q Y Y Z X U  ]
+1562 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1603 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G H F G F / V U Z P V Z Q Z U ]
+1605 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1647 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C D B F G F / V U P W T Z U W Y Q V]
+1649 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1659 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I G F A G D F / V U U Q R U X Y Q W R]
+1660 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1704 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I H J I F G F / V U U Q R U Z U Z U R]
+1706 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1743 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A I G J F G F / V U U Q U X V W W T ]
+1745 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1792 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B F J G G F / V U U Q Y V Q X Z T]
+1796 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1873 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C I A I G G F / V U P W T Z T Z Q X Z T]
+1874 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1928 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I G F A J G G F / V U U Q R U X Y T U W ]
+1932 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2004 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C D B B F B C G G F / V U P W T Z U W Y R V Y X W R]
+2006 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2020 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I G F A G H J H I F / V U U Q R U X Y Q X X U W R]
+2023 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2113 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A J G F / V U U Q R X Y W V]
+2116 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2133 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A J B D I F / V U U Q R X Y V U V ]
+2135 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2207 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A J B D F G F / V U U Q R X Y V U Z Y Y]
+2209 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2258 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A J B D F G G F / V U U Q R X Y V U Z Y T ]
+2259 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2305 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C D D J G F / V U P W T Z U V Z V U]
+2308 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2360 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C D D J G G F / V U P W T Z U V Z V Y ]
+2364 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2376 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A J A I F / V U U Q R X Y W  U]
+2377 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2428 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G I J C J G F / V U Z P V Z P Z X R  X]
+2429 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2483 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G A H D H G D G F / V U Z P V Z T Q Q U W X U R]
+2484 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2538 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C D D I G F / V U P W T Z U V V W R]
+2539 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2593 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A J B D I G F / V U U Q R X Y V U V Z ]
+2595 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2596 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A G J C G F / V U U Q U R Y X Z V]
+2597 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2656 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A D D C G F / V U U Q U X T V Q ]
+2657 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2717 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G I J C J A G F / V U Z P V Z P Z X R W V U]
+2718 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2782 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A B F J F / V U Z P X R R P P ]
+2782 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2852 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A D D F J F / V U U Q U X T U Q T]
+2853 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2918 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I G D G F J F / V U U Q R U P R P Q ]
+2925 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3028 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H B I F J F / V U U Q X U T U  ]
+3033 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3173 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A J A F J F / V U U Q R X Y W U V ]
+3174 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3247 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I H J I H G D F J F / V U U Q R U Z U T P W Y Y ]
+3259 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3370 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G I J C J A G F J F / V U Z P V Z P Z X R W V U  ]
+3372 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3456 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G I J G J F / V U Z P V Z P Z X  ]
+3459 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3460 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A A C F / V U U Q U X  ]
+3465 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3479 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A A I F J J F / V U U Q U X T Z Z W R]
+3481 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3501 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A A B I F / V U U Q U X P Z Q]
+3503 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3577 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A G J D J G F / V U Z P X R R T Y U T Z]
+3578 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3672 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C D B F G G J F / V U P W T Z U W Y Q Z  ]
+3673 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3752 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G I J C J C G J F / V U Z P V Z P Z X R P P  ]
+3752 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3829 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A A D J J F / V U U Q U X V Q  ]
+3831 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3905 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I G D C J J F / V U U Q R U P Q Q W R]
+3905 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3976 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D J F / V U P W T V T R ]
+3979 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3980 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H D D F / V U Z P U P  W]
+3983 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3985 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H H D F / V U Z P U Q V W]
+3986 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3988 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D J J F / V U P W T V T R X W]
+3989 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3991 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D H B F / V U P W T V T V  ]
+3993 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4011 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D A G D F / V U P W T V T Z Z Y ]
+4013 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4036 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D A G F I F / V U P W T V T Z Z Z U ]
+4039 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4063 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D J J H F / V U P W T V T R X T ]
+4063 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4150 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D D G G F / V U P W T V T P Q V ]
+4151 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4228 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H D J I G F / V U Z P U P V Y Y ]
+4228 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4339 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D H J J F / V U P W T V T V T Z ]
+4344 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4346 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D H J H J F / V U Z P V W Q P  ]
+4347 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4443 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D H J F J F / V U Z P V W Q R R Z]
+4444 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4560 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H H D J F / V U Z P U Q V  W]
+4562 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4583 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H H D F B H F / V U Z P U Q V W W  ]
+4584 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4679 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G H D J F / V U Z P V Z Q W  ]
+4680 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4763 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G H B I J F / V U Z P V Z Q Z Z V ]
+4764 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+4919 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A G B J F / V U Z P X R R Y T ]
+4920 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+5124 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D A G F H B J F / V U P W T V T Z Z Z U U U V]
+5125 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+5275 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G F D F / V U Z P V Z Q P Q]
+5283 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+5442 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A J G D F / V U U Q R X Y W U Z]
+5444 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+5456 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A A I D G D F / V U U Q U X T R P V ]
+5457 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+5586 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F I H J C G D F / V U P W T V V Z Y V W P]
+5589 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+5597 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F I H J C G C G G F / V U P W T V V Z Y V U X T ]
+5599 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+5728 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D J A A H J F / V U P W T V T R T R X V ]
+5729 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+5872 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F I D B D A D D F / V U P W T V R V Z X P  W]
+5872 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+6012 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A G D I D F / V U U Q U R Q U Y T]
+6012 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+6148 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H D J G F H B I D F / V U Z P U P V T W X T Z  R]
+6148 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+6289 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G F D F I F / V U Z P V Z Q P Q  Q]
+6290 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+6456 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H D J D F I F / V U Z P U P V Q Y  ]
+6456 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+6467 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A C B D D F / V U Z P X R P W P V ]
+6468 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+6615 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A A B I F I F / V U U Q U X P Z Q R ]
+6617 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+6810 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G A H D H G G F I F / V U Z P V Z T Q Q U W V T U R]
+6811 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+6966 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F H D J G I F / V U P W T V T R P U ]
+6967 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+7119 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D H J G B G I F / V U Z P V W Q X Y P X T]
+7120 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+7262 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D H J G B G I J D F / V U Z P V W Q X Y P X V X T]
+7264 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+7426 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C D B B F G J G I F / V U P W T Z U W Y R R T P R X]
+7427 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+7583 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B F J G J I F / V U U Q Y V Q X Y V ]
+7584 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+7756 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G H D D J J I F / V U Z P V Z Q W Q Q P  ]
+7757 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+7917 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H D I F / V U U Q X Z Z ]
+7919 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+7924 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H D I A F / V U U Q X Z Z  ]
+7933 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+7989 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H D G H F / V U U Q X Z Q Y R]
+7991 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8091 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H D G H F F / V U U Q X Z Q Y R Q]
+8092 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8343 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C I A I G D I F / V U P W T Z T Z Q X Z X V]
+8344 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8512 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D H J F J I D I F / V U Z P V W Q R R V W T W]
+8514 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8697 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I I F / V U Z P X W  ]
+8707 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8710 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I G C F / V U Z P X W R Y ]
+8715 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8719 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I H F H F / V U Z P X W W Z  ]
+8721 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8725 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I B F G F / V U Z P X W Y Z R ]
+8727 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8733 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I G J B C F / V U Z P X W R P X  ]
+8735 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8747 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I B B H F F / V U Z P X W Y Q R P ]
+8748 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8767 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I A D J F / V U Z P X W Q W R W]
+8769 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8899 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I A J J G F / V U Z P X W Q R T X V]
+8901 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+9235 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I H G I F / V U Z P X W W Z Y ]
+9236 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+9443 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G F H I F / V U U Q Y Y Z V U ]
+9444 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+9636 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F I D B D A H I F / V U P W T V R V Z X Y W V]
+9637 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+9838 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A C I F / V U U Q R X Y  ]
+9839 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+9947 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A C B G F / V U U Q R X Y V X Q]
+9948 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+10155 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A C D H I F / V U U Q R X Y P R  ]
+10155 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+10356 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G B I F / V U U Q Y Y T R X]
+10359 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+10361 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G B I C F / V U U Q Y Y T R  X]
+10362 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+10536 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G B D D F / V U U Q Y Y T R Q Z]
+10537 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+10757 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G B B D F / V U U Q Y Y T R  X]
+10757 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+10957 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A I B B I F / V U U Q U X W W T T]
+10958 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+11155 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H B J G B I F / V U U Q X U W W Y W R]
+11156 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+11357 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H H A I F / V U Z P U Q Q P Q]
+11358 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+11366 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H H A I F F G F / V U Z P U Q Q P Q T Y ]
+11366 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+11570 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A G A I F / V U U Q U R V P ]
+11571 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+11574 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A G A B A F / V U U Q U R V P  Y]
+11575 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+11814 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A C A I F / V U Z P X R P Y V V]
+11815 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12084 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H D F H F / V U Z P U P W Q X]
+12086 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12088 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H D F I H F / V U Z P U P W P  ]
+12089 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12351 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H B F H F / V U U Q X U T  ]
+12361 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12361 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B F / V V T ]
+12368 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12369 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I C F / V U Z X W  ]
+12378 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12379 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B A F / V U U Q U  Q]
+12384 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12385 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G J H F / V V T Y Y W ]
+12388 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12389 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F B C F / V U P W T X X Z]
+12390 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12392 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B B C B A F / V V T W X R  ]
+12393 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12396 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B B C A B F / V V T W X X P ]
+12398 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12400 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F B C D F / V U P W T X X  Z]
+12404 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12408 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H H H H F / V U Z P U Q W X ]
+12409 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12411 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B F G I F / V U U Q U Q V Z ]
+12413 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12417 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H B C H F / V U U Q X U T Y R]
+12420 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12424 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B B B A I C F / V V T W T V Q  ]
+12426 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12440 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D G B B J G F / V U P W Q Y T X ]
+12443 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12446 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G J H H F / V V T Y Y W P P]
+12448 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12462 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G J A G G F / V V T Y Y Q U  ]
+12463 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12483 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D H C H J F / V U Z P V W Z P V ]
+12486 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12516 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D G B B J J I F / V U P W Q Y T Z T ]
+12519 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12560 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G G H F / V V T Y V Q ]
+12562 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12596 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G J B G H F / V V T Y Y Z P P V]
+12598 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12610 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G J C G B G F / V V T Y Y V Y Z Z ]
+12613 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12647 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I A A H F / V U Z P X W Q Y T T]
+12649 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12684 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G F D H F / V U U Q Y Y Z U R Y]
+12685 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12724 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G F I C F / V U Z P V Z Q R  ]
+12726 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12764 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H H H B C F / V U Z P U Q W W  ]
+12765 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12801 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B F G I C F / V U U Q U Q V Z U ]
+12802 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12838 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A I B I C F / V U U Q U X W W U V]
+12839 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12876 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G J H H G C F / V V T Y Y W P T  ]
+12877 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12923 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G C F I A F / V V T Y R X P R ]
+12924 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12974 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A A B A A F / V U U Q U X P Z V T]
+12975 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+13061 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H B C H F F / V U U Q X U T Y R ]
+13062 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+13275 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G J A G I G F / V V T Y Y Q U X  ]
+13276 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+13420 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B B H G F / V U U Q U P V  ]
+13421 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+13554 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A A B D C G F / V U U Q U X P Y X  ]
+13556 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+13741 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A J F / V U Z X W R Q T]
+13742 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+13746 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A H J F / V U Z X W R Q X ]
+13748 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+13761 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A I J G F / V U Z X W R P U  ]
+13764 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+13789 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A I I D F / V U Z X W R P P W Q]
+13790 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+14007 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A J D F / V U Z X W R Q Y ]
+14008 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+14281 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G J A I J C D F / V V T Y Y Q X W V  ]
+14282 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+14490 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B F G A F I F / V U U Q U Q V T R  ]
+14491 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+14494 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B B C G G D F / V V T W X Z U X W]
+14496 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+14773 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B F F H F / V U U Q Y V X  ]
+14773 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+15045 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A H F H F / V U Z X W R Q R  ]
+15047 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+15318 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G H F H F / V U U Q Y Y X P V Y]
+15322 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+15361 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I I G J D H F / V U Z P R Q Z Q  ]
+15362 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+15677 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B B B G C F H F / V V T W T V W T W R]
+15678 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+16058 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C G G F H F / V U P W T Z X V P U ]
+16059 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+16338 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I H I F H F / V U Z P X W W T Q T ]
+16339 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+16616 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A H C F H F / V U Z P X R X Q V  ]
+16617 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+16896 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H D F H F H F / V U Z P U P W Q X Y ]
+16897 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+17175 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J I A J J F H F / V U Z P X W Q R T V  ]
+17180 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+17233 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G G A A C F / V V T Y V V P X X]
+17234 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+17560 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I G G H F / V U U Q R U R U U]
+17562 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+17579 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I G G H D F / V U U Q R U R U Y ]
+17580 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+17601 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I G G C I F / V U U Q R U R T Y ]
+17601 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+18033 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D H J H G H F / V U Z P V W Q P Y Z ]
+18034 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+18381 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B B F B B J H F / V V T W R V T Z  ]
+18382 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+18414 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A I B C F / V U Z X W R P T P T]
+18415 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+18751 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A C D H F / V U Z P X R P Z Q ]
+18771 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+18776 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C H I I F / V U U T U Q W  Y]
+18782 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+18798 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A F G F G F / V U U T T R Z  ]
+18801 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+18807 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A F G A G F / V U U T T R P V P]
+18809 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+18830 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C F I G F / V U U T U Z Y  Z]
+18837 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+18879 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C D B G F / V U U T U Z X V R]
+18884 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+18917 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C F B H G F / V U U T U Z Q V U ]
+18918 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+18946 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A I I I G F / V U U T P V X X Q ]
+18950 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+19005 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F F I F / V U U T P V W U ]
+19006 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+19025 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F F G G F / V U U T P V W Q W ]
+19026 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+19063 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C H B I I F / V U U T U Q T V  ]
+19065 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+19128 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C D A F C F / V U U T U Z T U T W]
+19132 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+19210 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C F F A F / V U U T U Z U W ]
+19212 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+19245 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C F F A D F / V U U T U Z U W W T]
+19246 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+19332 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A F G A G F F / V U U T T R P V P Z]
+19333 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+19490 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F B J G F / V U U T P V W R Q T]
+19491 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+19630 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A I J D G F / V U U T P V V T  Z]
+19631 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+19788 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F F H G F / V U U T P V W Y W T]
+19789 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+20031 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C D B G J F / V U U T U Z X V  R]
+20031 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+20198 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C D A J J F / V U U T U Z T W P ]
+20199 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+20379 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F I D J F / V U U T P V R R V ]
+20380 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+20639 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F I F I F / V U U T P V R T T ]
+20639 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+20908 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A F G C J I F / V U U T T R Y X  ]
+20909 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+21222 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C D B B I F / V U U T U Z X Q X Z]
+21223 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+21614 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F F I H F / V U U T P V W U V ]
+21615 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+22186 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D G B B J H H F / V U P W Q Y T Z X ]
+22187 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+22601 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A C H H F / V U U Q R X Y T R ]
+22602 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+23019 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B B B I F C F / V V T W T U R  ]
+23020 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+23040 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B F C H D F / V U U Q Y V V U P ]
+23041 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+23458 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C D F C F / V U P W T Z U W R X]
+23458 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+23877 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G A F C F / V U Z P V Z T Y  ]
+23878 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+24298 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A I J F C F / V U U T P V V P  ]
+24298 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+24719 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J F C D D F C F / V U P W T Z U V R W R]
+24720 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+25200 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F J G C F / V U U T P V Y P  ]
+25202 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+25503 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A J D G I F / V U Z X W R Q Y Z X ]
+25504 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+25948 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G J H B G C F / V V T Y Y W T Q Q T]
+25952 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+26438 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I I G J C G C F / V U Z P R Q Z U Y  ]
+26439 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+26484 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H D G B B F / V U U Q X Z Q Z  ]
+26486 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+26901 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H D F I G C F / V U Z P U P W P W  ]
+26902 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+27406 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C F I C G C F / V U U T U Z Y Q Y P ]
+27406 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+27838 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J B J C F / V U P W Z W  ]
+27839 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+27842 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J B J H J F / V U P W Z W W P ]
+27844 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+28425 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A A A J C F / V U U Q U X W U  ]
+28426 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+28566 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A A B C H G F / V U U Q U X P U T W R]
+28567 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+29008 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G J B G J C F / V V T Y Y Z P V  ]
+29009 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+29535 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A B D C F / V U Z P X R R Y  ]
+29536 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+29992 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H H D G D C F / V U U Q X Z Q Y R ]
+29992 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+30458 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B F F D C F / V U U Q Y V X R Z ]
+30459 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+30922 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C H B D C F / V U U T U Q T P T ]
+30923 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+31395 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F J D C F / V U U T P V Y P U ]
+31396 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+31901 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H H D F D C F / V U Z P U Q V W Q  W]
+31901 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+31950 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D H D C A F / V U Z P V W Z Q R ]
+31950 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+32421 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B B H C F / V U U Q U P V Y R]
+32423 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+32442 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B B H B J F / V U U Q U P V Q Y ]
+32443 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+32474 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B B H C I F / V U U Q U P V Y  R]
+32475 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+32986 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A H H C F / V U Z P X R X Q X T]
+32986 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+33469 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A I C C F / V U U Q U X V  ]
+33470 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+34055 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A A C C F / V U U Q R X Y W  ]
+34056 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+34549 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I A C A C F / V U U Q R X Y T P T]
+34550 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+35067 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C F B A C F / V U U T U Z Q Y V Z]
+35068 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+35573 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F B G B F / V U U T P V W P Z ]
+35574 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+36086 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B F J G G B F / V U U Q Y V Q X Z  T]
+36087 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+36598 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H B G B A G B F / V U U Q Y Y T Q Q Y ]
+36599 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+37118 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C H I A G B F / V U U T U Q W R U  ]
+37119 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+37640 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C F D J B F / V U U T U Z W V X V]
+37642 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+38197 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C F I D B F / V U U T U Z Y P W T]
+38198 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+38765 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B F H B F / V U U Q U Q T V ]
+38768 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+39363 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C H I H B F / V U U T U Q W X  ]
+39364 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+39927 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A J C B F / V U Z X W R Q R R V]
+39928 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+40509 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B B H A B F / V U U Q U P V Q W ]
+40510 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+41087 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A F A F / V U Z X W R Q R ]
+41098 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+41101 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A H A A F / V U U T T X  ]
+41104 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+41137 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A H A J D F / V U U T T X P  X]
+41141 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+41589 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A F A I F / V U Z X W R Q R U ]
+41590 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+42045 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A C A G H F / V U U T P W V U R T]
+42046 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+42488 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A H A B I H F / V U U T T X U P  ]
+42489 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+43027 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A H A B A C F / V U U T T X U Q W ]
+43028 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+43569 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A H A B F B F / V U U T T X U Y W W]
+43570 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+44163 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H D C A B F / V U Z P U P U V  ]
+44164 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+44788 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A H A B C G A F / V U U T T X U X W Y ]
+44789 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+45532 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J B J H J A F / V U P W Z W W P P ]
+45533 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+46117 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I I G G D A F / V U Z P R Q W W  ]
+46118 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+46722 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I C B A F / V U U Q R Q R T T]
+46723 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+46750 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I C B A I F / V U U Q R Q R T  T]
+46751 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+47374 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B B A G A A F / V V T W Q Q R Z T]
+47375 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+48732 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C F F A D F G F / V U U T U Z U W W T V ]
+48733 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+50146 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J A G I G G F / V U Z P X R R Q Q  ]
+50147 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+51621 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A F G F J G F / V U U T T R Z T Y ]
+51622 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+51917 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A F G F J I F / V U U T T R Z T T ]
+51918 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+53536 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B F H A G I G F / V U U Q U Q T Y X T Y ]
+53537 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+55183 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A F G C H I G F / V U U T T R Y X Y R X]
+55184 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+57054 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H A A I F F B G F / V U U Q U X T Z R Y V ]
+57056 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+58943 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C J B G F / V U U T U W W  ]
+58944 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+58948 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C J B C F / V U U T U W W X V]
+58950 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+59526 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C J B C B F / V U U T U W W X Z ]
+59527 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+61538 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H D J B J H B A G F / V U P W Z W W V R  ]
+61540 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+63631 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F I B F J F / V U U T P V R R P  ]
+63631 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+65892 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I J G B G J J F / V U Z P X R W X W P ]
+65893 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+68135 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I H I A J F I J F / V U Z X W R Q T U V ]
+68136 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+70760 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A A F I A B J F / V U U T P V R Q Z  ]
+70760 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+73429 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I G G H F A J F / V U U Q R U R U U V  ]
+73430 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+73772 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G G A I G A I F / V V T Y V V R X V X ]
+73773 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+76450 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H G B F H G A J F / V U U Q U Q T X Y  ]
+76451 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+79475 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H A C D A J F I D F / V U U T U Z T W Z V  ]
+79476 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+82815 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D G A I B D F / V U Z P V Z T Y Q U ]
+82815 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+86908 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H J B I F / V U Z P U W Q Y T]
+86912 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+87086 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I H J B H H G F / V U Z P U W Q P T  ]
+87087 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+91168 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H I I D H J J B I F / V U Z P V W Q X W V ]
+91169 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+93222 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B G G H B A G F / V V T Y V Q W R  ]
+93223 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+97303 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F C B B A C B B I F / V V T W Q P U X  ]
+97304 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+102918 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|F H H H I H J H A H F / V U U Q R U Z U Y  ]
+102919 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+29442793 [main] INFO nl.utwente.fmt.rers.Main - timeout reached, not using counter example
+29442793 [main] INFO nl.utwente.fmt.rers.Main - Useless equivalence symbols: 19991117619
+29442793 [main] INFO nl.utwente.fmt.rers.Main - Useless equivalence queries: 160986186

@@ -1,0 +1,163 @@
+18 [main] INFO nl.utwente.fmt.rers.Main - multiplier is: 1.0
+19 [main] INFO nl.utwente.fmt.rers.Main - minimum unfolds is : 3
+1830 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #1: (false R (!((letter == "L") && (true U (letter == "M"))) || (!(((letter == "W") && !(letter == "M")) && X (!(letter == "M") U ((letter == "X") && !(letter == "M")))) U ((letter == "M") || (letter == "Y")))))
+1832 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #2: (false R (!(((letter == "E") && !(letter == "C")) && (true U (letter == "C"))) || (!(letter == "Z") U ((letter == "P") || (letter == "C")))))
+1833 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #3: (false R (!(letter == "O") || (false R (!(letter == "E") || (true U (letter == "Z"))))))
+1835 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #4: (false R (!(letter == "O") || (true U (((letter == "W") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "X"))))))
+1837 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #5: (false R ((letter == "T") && (!!(letter == "X") || ((!(letter == "D") || (!(letter == "X") U ((letter == "U") && !(letter == "X")))) W (letter == "X")))))
+1838 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #6: (!(true U (letter == "D")) || (!(((letter == "Y") && !(letter == "D")) && X (!(letter == "D") U ((letter == "V") && !(letter == "D")))) U ((letter == "D") || (letter == "X"))))
+1842 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #7: (false R (!(letter == "N") || ((!(((letter == "X") && !(letter == "Z")) && X (!(letter == "Z") U ((letter == "U") && !(letter == "Z")))) U ((letter == "Z") || (letter == "B"))) || (false R !((letter == "X") && X (true U (letter == "U")))))))
+1843 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #8: (!(true U (letter == "X")) || (!(letter == "X") U (((letter == "G") && !(letter == "X")) && X (!(letter == "X") U (letter == "R")))))
+1844 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #9: (!(true U (letter == "R")) || ((!(letter == "H") || (!(letter == "R") U ((((letter == "U") && !(letter == "R")) && !(letter == "V")) && X ((!(letter == "R") && !(letter == "V")) U (letter == "Y"))))) U (letter == "R")))
+1847 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #10: (false R (!(letter == "J") || ((!(letter == "Q") || (!(letter == "I") U ((((letter == "X") && !(letter == "I")) && !(letter == "Z")) && X ((!(letter == "I") && !(letter == "Z")) U (letter == "V"))))) U ((letter == "I") || (false R (!(letter == "Q") || (((letter == "X") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "V")))))))))
+1848 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #11: (!(true U (letter == "P")) || (!(letter == "X") U ((letter == "P") || (((letter == "M") && !(letter == "X")) && X (!(letter == "X") U (letter == "D"))))))
+1849 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #12: (!(true U (letter == "Z")) || ((!(letter == "L") || (!(letter == "Z") U (((letter == "W") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "Y"))))) U (letter == "Z")))
+1849 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #13: (false R (!(letter == "S") || (false R (!(letter == "C") || (true U (letter == "Z"))))))
+1851 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #14: (false R (!((letter == "S") && (true U (letter == "R"))) || (!(((letter == "U") && !(letter == "R")) && X (!(letter == "R") U ((letter == "X") && !(letter == "R")))) U ((letter == "R") || (letter == "D")))))
+1852 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #15: (false R (!((letter == "T") && (true U (letter == "B"))) || (!(((letter == "W") && !(letter == "B")) && X (!(letter == "B") U ((letter == "V") && !(letter == "B")))) U ((letter == "B") || (letter == "K")))))
+1853 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #16: (false R (!(letter == "D") || (true U (letter == "V"))))
+1854 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #17: (false R ((letter == "N") && (!!(letter == "O") || ((!(letter == "T") || (!(letter == "O") U ((letter == "U") && !(letter == "O")))) W (letter == "O")))))
+1855 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #18: (false R ((letter == "R") && (!!(letter == "U") || ((!(letter == "D") || (!(letter == "U") U ((letter == "X") && !(letter == "U")))) W (letter == "U")))))
+1857 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #19: (false R (!((letter == "W") && (true U (letter == "S"))) || (!(((letter == "U") && !(letter == "S")) && X (!(letter == "S") U ((letter == "Y") && !(letter == "S")))) U ((letter == "S") || (letter == "Q")))))
+1858 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #20: (false R (!(letter == "J") || (false R (!(letter == "M") || (((letter == "X") && !(letter == "V")) && X (!(letter == "V") U (letter == "W")))))))
+1862 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #21: (!(true U (letter == "Y")) || (!(letter == "U") U ((letter == "Y") || (((letter == "W") && !(letter == "U")) && X (!(letter == "U") U (letter == "X"))))))
+1864 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #22: (false R (!(letter == "F") || ((!(letter == "H") || (!(letter == "G") U (((letter == "V") && !(letter == "G")) && X (!(letter == "G") U (letter == "Y"))))) U ((letter == "G") || (false R (!(letter == "H") || ((letter == "V") && X (true U (letter == "Y")))))))))
+1865 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #23: (false R ((letter == "O") && (!X (true U (letter == "E")) || X (true U ((letter == "E") && (true U (letter == "W")))))))
+1866 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #24: ((false R !(letter == "N")) || (true U ((letter == "N") && (!(letter == "V") W (letter == "P")))))
+1867 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #25: (false R (!((letter == "C") && (true U (letter == "H"))) || ((!(letter == "I") || (!(letter == "H") U (((letter == "W") && !(letter == "H")) && X (!(letter == "H") U (letter == "Y"))))) U (letter == "H"))))
+1868 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #26: (false R (!((letter == "H") && (true U (letter == "Y"))) || ((!(letter == "M") || (!(letter == "Y") U (((letter == "Z") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "X"))))) U (letter == "Y"))))
+1869 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #27: ((false R !(letter == "L")) || (!(letter == "L") U ((letter == "L") && (!(true U ((letter == "V") && X (true U (letter == "W")))) || (!(letter == "V") U (letter == "B"))))))
+1870 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #28: (false R (!((letter == "X") && (true U (letter == "F"))) || (((letter == "L") && (!X (!(letter == "F") U (letter == "P")) || X (!(letter == "F") U ((letter == "P") && (true U (letter == "Y")))))) U (letter == "F"))))
+1871 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #29: (false R (!(((letter == "D") && !(letter == "F")) && (true U (letter == "F"))) || ((!(letter == "K") || (!(letter == "F") U ((letter == "V") && !(letter == "F")))) U (letter == "F"))))
+1872 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #30: (false R (!(((letter == "C") && !(letter == "U")) && (true U (letter == "U"))) || ((!(letter == "R") || (!(letter == "U") U ((letter == "W") && !(letter == "U")))) U (letter == "U"))))
+1872 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #31: (!(true U ((letter == "Y") && X (true U (letter == "W")))) || (!(letter == "Y") U (letter == "X")))
+1872 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #32: (false R (!(letter == "M") || (true U ((letter == "Y") && X (true U (letter == "W"))))))
+1873 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #33: (!(true U (letter == "K")) || ((!(letter == "I") || (!(letter == "K") U (((letter == "X") && !(letter == "K")) && X (!(letter == "K") U (letter == "V"))))) U (letter == "K")))
+1877 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #34: (false R (!(letter == "R") || (true U (((letter == "X") && !(letter == "W")) && X (!(letter == "W") U (letter == "V"))))))
+1878 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #35: (!(true U (letter == "W")) || (!(letter == "X") U ((letter == "G") || (letter == "W"))))
+1879 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #36: ((false R !(letter == "H")) || (!(letter == "H") U ((letter == "H") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "F") && !(letter == "W")) && X (!(letter == "W") U (letter == "Z"))))))))
+1879 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #37: (false R (!(letter == "S") || (true U (letter == "U"))))
+1880 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #38: ((false R !(letter == "V")) || (!(letter == "V") U ((letter == "V") && (!(true U ((letter == "Z") && X (true U (letter == "U")))) || (!(letter == "Z") U (letter == "W"))))))
+1881 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #39: (!(true U (letter == "U")) || (((letter == "A") && (!X (!(letter == "U") U (letter == "D")) || X (!(letter == "U") U ((letter == "D") && (true U (letter == "W")))))) U (letter == "U")))
+1881 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #40: (false R (!(letter == "C") || ((!(((letter == "W") && !(letter == "I")) && X (!(letter == "I") U ((letter == "V") && !(letter == "I")))) U ((letter == "I") || (letter == "S"))) || (false R !((letter == "W") && X (true U (letter == "V")))))))
+1882 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #41: (false R (!(letter == "H") || (false R (!(letter == "P") || (((letter == "U") && !(letter == "V")) && X (!(letter == "V") U (letter == "Z")))))))
+1882 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #42: ((false R !(letter == "Z")) || (true U ((letter == "Z") && (!(letter == "Y") W (letter == "G")))))
+1884 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #43: (false R (!(letter == "P") || ((!(((letter == "W") && !(letter == "E")) && X (!(letter == "E") U ((letter == "U") && !(letter == "E")))) U ((letter == "E") || (letter == "X"))) || (false R !((letter == "W") && X (true U (letter == "U")))))))
+1885 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #44: (!(true U (letter == "U")) || (((letter == "I") && (!X (!(letter == "U") U (letter == "E")) || X (!(letter == "U") U ((letter == "E") && (true U (letter == "V")))))) U (letter == "U")))
+1885 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #45: (false R (!((letter == "R") && (true U (letter == "U"))) || ((!(letter == "L") || (!(letter == "U") U ((((letter == "W") && !(letter == "U")) && !(letter == "Z")) && X ((!(letter == "U") && !(letter == "Z")) U (letter == "X"))))) U (letter == "U"))))
+1885 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #46: (false R (!(((letter == "W") && !(letter == "N")) && (true U (letter == "N"))) || ((!(letter == "S") || (!(letter == "N") U ((letter == "V") && !(letter == "N")))) U (letter == "N"))))
+1886 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #47: ((false R !(letter == "F")) || (!(letter == "F") U ((letter == "F") && (!(true U (letter == "Y")) || (!(letter == "Y") U (((letter == "K") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "N"))))))))
+1886 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #48: (!(true U (letter == "S")) || (!(((letter == "Y") && !(letter == "S")) && X (!(letter == "S") U ((letter == "V") && !(letter == "S")))) U ((letter == "S") || (letter == "Q"))))
+1886 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #49: (false R (!(letter == "S") || (!(true U (letter == "W")) || (!(letter == "W") U ((letter == "O") || (((letter == "J") && !(letter == "W")) && X (!(letter == "W") U (letter == "X"))))))))
+1887 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #50: (false R (!((letter == "H") && (true U (letter == "W"))) || (((letter == "J") && (!X (!(letter == "W") U (letter == "S")) || X (!(letter == "W") U ((letter == "S") && (true U (letter == "Z")))))) U (letter == "W"))))
+1887 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #51: (!(letter == "U") W (letter == "K"))
+1887 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #52: (false R (!(((letter == "E") && !(letter == "K")) && (true U (letter == "K"))) || (!(letter == "U") U ((letter == "M") || (letter == "K")))))
+1888 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #53: (false R (!(letter == "H") || (false R (!(letter == "M") || ((letter == "Y") && X (true U (letter == "Z")))))))
+1888 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #54: (false R (!(letter == "M") || ((!(letter == "I") || (!(letter == "A") U ((((letter == "W") && !(letter == "A")) && !(letter == "V")) && X ((!(letter == "A") && !(letter == "V")) U (letter == "U"))))) U ((letter == "A") || (false R (!(letter == "I") || (((letter == "W") && !(letter == "V")) && X (!(letter == "V") U (letter == "U")))))))))
+1889 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #55: (false R (!(((letter == "S") && !(letter == "M")) && (true U (letter == "M"))) || (!(letter == "Z") U ((letter == "U") || (letter == "M")))))
+1889 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #56: (false R (!(letter == "M") || (!(true U (letter == "Y")) || (!(letter == "Y") U ((letter == "R") || (((letter == "V") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "I"))))))))
+1889 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #57: ((false R !(letter == "K")) || (!(letter == "K") U ((letter == "K") && (!(true U (letter == "U")) || (!(letter == "U") U (((letter == "X") && !(letter == "U")) && X (!(letter == "U") U (letter == "Z"))))))))
+1890 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #58: (!(true U (letter == "W")) || ((!(letter == "F") || (!(letter == "W") U (((letter == "V") && !(letter == "W")) && X (!(letter == "W") U (letter == "Y"))))) U (letter == "W")))
+1890 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #59: (!(true U (letter == "W")) || (!(letter == "Y") U ((letter == "W") || (((letter == "C") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "D"))))))
+1890 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #60: (!(true U (letter == "H")) || ((!(letter == "G") || (!(letter == "H") U ((letter == "U") && !(letter == "H")))) U (letter == "H")))
+1890 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #61: ((false R !(letter == "T")) || (true U ((letter == "T") && (!(letter == "Z") W (letter == "S")))))
+1891 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #62: (false R ((letter == "T") && (!!(letter == "K") || (!(letter == "Z") W ((letter == "N") || (letter == "K"))))))
+1891 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #63: (false R (!(letter == "T") || ((!(((letter == "V") && !(letter == "J")) && X (!(letter == "J") U ((letter == "X") && !(letter == "J")))) U ((letter == "J") || (letter == "G"))) || (false R !((letter == "V") && X (true U (letter == "X")))))))
+1892 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #64: (!(true U ((letter == "Z") && X (true U (letter == "U")))) || (!(letter == "Z") U (letter == "Q")))
+1892 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #65: (!(true U (letter == "H")) || ((!(letter == "P") || (!(letter == "H") U (((letter == "W") && !(letter == "H")) && X (!(letter == "H") U (letter == "Y"))))) U (letter == "H")))
+1892 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #66: (false R (!((letter == "F") && (true U (letter == "B"))) || ((!(letter == "M") || (!(letter == "B") U (((letter == "X") && !(letter == "B")) && X (!(letter == "B") U (letter == "U"))))) U (letter == "B"))))
+1893 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #67: (false R (!(letter == "N") || (false R (!(letter == "A") || (((letter == "Z") && !(letter == "U")) && X (!(letter == "U") U (letter == "V")))))))
+1893 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #68: (false R (!(letter == "T") || ((!(letter == "N") || (!(letter == "M") U ((((letter == "Z") && !(letter == "M")) && !(letter == "U")) && X ((!(letter == "M") && !(letter == "U")) U (letter == "X"))))) U ((letter == "M") || (false R (!(letter == "N") || (((letter == "Z") && !(letter == "U")) && X (!(letter == "U") U (letter == "X")))))))))
+1893 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #69: (false R ((letter == "T") && (!!(letter == "V") || ((!(letter == "I") || (!(letter == "V") U ((letter == "X") && !(letter == "V")))) W (letter == "V")))))
+1894 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #70: (!(true U (letter == "S")) || (!(((letter == "V") && !(letter == "S")) && X (!(letter == "S") U ((letter == "Z") && !(letter == "S")))) U ((letter == "S") || (letter == "F"))))
+1894 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #71: (!(letter == "V") W (letter == "C"))
+1894 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #72: (false R (!(((letter == "D") && !(letter == "G")) && (true U (letter == "G"))) || ((!(letter == "E") || (!(letter == "G") U ((letter == "W") && !(letter == "G")))) U (letter == "G"))))
+1894 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #73: (false R (!(letter == "F") || ((!(letter == "O") || (!(letter == "R") U (((letter == "Z") && !(letter == "R")) && X (!(letter == "R") U (letter == "Y"))))) U ((letter == "R") || (false R (!(letter == "O") || ((letter == "Z") && X (true U (letter == "Y")))))))))
+1895 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #74: (false R (!((letter == "V") && (true U (letter == "P"))) || ((!(letter == "O") || (!(letter == "P") U ((((letter == "Y") && !(letter == "P")) && !(letter == "W")) && X ((!(letter == "P") && !(letter == "W")) U (letter == "U"))))) U (letter == "P"))))
+1895 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #75: (false R (!(letter == "B") || (false R ((letter == "M") && (!X (true U (letter == "D")) || X (!(letter == "D") U ((letter == "D") && (true U (letter == "Z")))))))))
+1895 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #76: (!(true U (letter == "U")) || ((!(letter == "T") || (!(letter == "U") U (((letter == "V") && !(letter == "U")) && X (!(letter == "U") U (letter == "X"))))) U (letter == "U")))
+1896 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #77: (false R (!(letter == "N") || ((!(((letter == "Z") && !(letter == "J")) && X (!(letter == "J") U ((letter == "U") && !(letter == "J")))) U ((letter == "J") || (letter == "D"))) || (false R !((letter == "Z") && X (true U (letter == "U")))))))
+1896 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #78: (!(true U (letter == "T")) || (!(letter == "U") U ((letter == "A") || (letter == "T"))))
+1896 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #79: (false R (!(letter == "J") || (false R (!(letter == "H") || (true U (letter == "W"))))))
+1896 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #80: (!(true U (letter == "R")) || ((!(letter == "H") || (!(letter == "R") U (((letter == "X") && !(letter == "R")) && X (!(letter == "R") U (letter == "W"))))) U (letter == "R")))
+1897 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #81: (false R (!(letter == "L") || ((!(((letter == "Z") && !(letter == "H")) && X (!(letter == "H") U ((letter == "U") && !(letter == "H")))) U ((letter == "H") || (letter == "M"))) || (false R !((letter == "Z") && X (true U (letter == "U")))))))
+1897 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #82: (false R (!((letter == "W") && (true U (letter == "B"))) || (!(((letter == "V") && !(letter == "B")) && X (!(letter == "B") U ((letter == "Y") && !(letter == "B")))) U ((letter == "B") || (letter == "R")))))
+1897 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #83: (false R (!((letter == "U") && (true U (letter == "F"))) || (((letter == "H") && (!X (!(letter == "F") U (letter == "A")) || X (!(letter == "F") U ((letter == "A") && (true U (letter == "V")))))) U (letter == "F"))))
+1898 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #84: (false R (!(letter == "H") || (true U (letter == "V"))))
+1898 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #85: (false R (!(letter == "S") || (false R (!(letter == "L") || ((letter == "Y") && X (true U (letter == "V")))))))
+1899 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #86: (!(true U (letter == "J")) || ((!(letter == "G") || (!(letter == "J") U ((letter == "Y") && !(letter == "J")))) U (letter == "J")))
+1899 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #87: (false R (!((letter == "G") && (true U (letter == "L"))) || (((letter == "A") && (!X (!(letter == "L") U (letter == "J")) || X (!(letter == "L") U ((letter == "J") && (true U (letter == "U")))))) U (letter == "L"))))
+1900 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #88: (false R (!((letter == "T") && (true U (letter == "U"))) || (!(((letter == "V") && !(letter == "U")) && X (!(letter == "U") U ((letter == "W") && !(letter == "U")))) U ((letter == "U") || (letter == "B")))))
+1900 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #89: (false R ((letter == "O") && (!!(letter == "H") || (!(letter == "W") W ((letter == "C") || (letter == "H"))))))
+1901 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #90: (false R (!(letter == "U") || (false R (!(letter == "H") || ((letter == "Z") && X (true U (letter == "X")))))))
+1901 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #91: (false R (!((letter == "D") && (true U (letter == "H"))) || ((!(letter == "C") || (!(letter == "H") U ((((letter == "U") && !(letter == "H")) && !(letter == "Y")) && X ((!(letter == "H") && !(letter == "Y")) U (letter == "Z"))))) U (letter == "H"))))
+1902 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #92: (false R (!(((letter == "G") && !(letter == "H")) && (true U (letter == "H"))) || ((!(letter == "N") || (!(letter == "H") U ((letter == "V") && !(letter == "H")))) U (letter == "H"))))
+1902 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #93: (false R (!(letter == "P") || ((!(letter == "B") || (!(letter == "Q") U (((letter == "Y") && !(letter == "Q")) && X (!(letter == "Q") U (letter == "W"))))) U ((letter == "Q") || (false R (!(letter == "B") || ((letter == "Y") && X (true U (letter == "W")))))))))
+1903 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #94: (false R (!((letter == "C") && (true U (letter == "U"))) || ((!(letter == "A") || (!(letter == "U") U (((letter == "Z") && !(letter == "U")) && X (!(letter == "U") U (letter == "Y"))))) U (letter == "U"))))
+1903 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #95: (false R (!((letter == "O") && (true U (letter == "M"))) || ((!(letter == "K") || (!(letter == "M") U ((((letter == "W") && !(letter == "M")) && !(letter == "Y")) && X ((!(letter == "M") && !(letter == "Y")) U (letter == "X"))))) U (letter == "M"))))
+1904 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #96: (false R (!((letter == "Q") && (true U (letter == "W"))) || (!(letter == "V") U ((letter == "W") || (((letter == "O") && !(letter == "V")) && X (!(letter == "V") U (letter == "F")))))))
+1904 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #97: ((false R !(letter == "L")) || (!(letter == "L") U ((letter == "L") && (!(true U ((letter == "Z") && X (true U (letter == "Y")))) || (!(letter == "Z") U (letter == "B"))))))
+1904 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #98: (false R (!(letter == "Z") || (false R (!(letter == "E") || ((letter == "V") && X (true U (letter == "U")))))))
+1904 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #99: (!(true U (letter == "U")) || (!(letter == "U") U (((letter == "V") && !(letter == "U")) && X (!(letter == "U") U (letter == "M")))))
+1905 [main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #100: (!(letter == "W") W (letter == "I"))
+1924 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1971 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L / X V]
+2070 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2109 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L A I I L / X V X X  Z]
+3567 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3930 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L A I T I K L / X V X X V Y X ]
+8119 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+8125 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A M R L / X Y  ]
+12113 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+12125 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A M F C L / X Y V Z ]
+21045 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+21068 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|P O G L / Z Z  ]
+31838 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+31848 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L L S L / X V X  ]
+42989 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+43006 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L D R B L / X V Z Y  ]
+62274 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+62301 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|Q T J B J L / Y Y V Y  ]
+80245 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+80284 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L D J P I L / X V Z X V Z ]
+92270 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+92312 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L Q K O N L / X V V X X  ]
+107976 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+108031 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L L N N I L / X V X V V Z ]
+120346 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+120972 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L Q K L G D L / X V V X X V  ]
+136858 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+137632 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|P L G A G C J L / Z Y Y V X X Y ]
+151456 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+153047 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A M F C F E L / X Y V Z X  ]
+173686 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+177828 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L A T T L S I L / X V X X V Z X  ]
+194816 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+199607 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|P L N E C K L / Z Y X Z Y Y ]
+212931 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+223599 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L L N N A Q B C L / X V X V V V X Y  ]
+244436 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+257247 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L L Q O L F L L / X V X Z Y X Y V ]
+276448 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+295161 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L Q F O T R A L / X V V Y Z X Y Z ]
+314290 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+369399 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L L G T G C C I L / X V X Z V V V Y  ]
+389320 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+460971 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A M F J N E R O I L / X Y V V X X X Y  ]
+482382 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+482406 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A M E R J L / X Y V X  ]
+493822 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+510059 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A M E R M Q B D L / X Y V X X V Y  ]
+529158 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+777919 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A M E R M L S C L / X Y V X X X Z  ]
+795251 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1095548 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L Q R D S P I D L / X V V Y V X X Y X ]
+1115893 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+1566942 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L Q K G N Q C O L / X V V X Z Z X Y Y ]
+1589472 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2134391 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L A P S N P Q L / X V X X Y X X Z ]
+2156404 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+2789930 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A L D D K K E N L / X V Z V V V Z  ]
+2808699 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
+3486204 [main] INFO nl.utwente.fmt.rers.Main - Query[ε|A M F C D N G F L / X Y V Z Z Z Y V ]
+3516063 [main] INFO nl.utwente.fmt.rers.Main - Searching for counterexample
