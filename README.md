@@ -8,10 +8,10 @@ the data.
 
 To reproduce our benchmarks it is required to install four Maven projects.
 
-1. A new version of the AutomataLib: https://github.com/Meijuh/automatalib.
-1. A new version of the LearnLib: https://github.com/Meijuh/learnlib.
-1. Our modified RERS 2017 Problems: https://github.com/Meijuh/RERS2017-seq-problems.
-1. Our SUL implementation for the RERS 2017 problems: https://github.com/Meijuh/RERS2017.
+1. A new version of the AutomataLib: https://github.com/Meijuh/automatalib/releases/tag/NFM2018.
+1. A new version of the LearnLib: https://github.com/Meijuh/learnlib/releases/tag/NFM2018.
+1. Our modified RERS 2017 Problems: https://github.com/Meijuh/RERS2017-seq-problems/releases/tag/NFM2018.
+1. Our SUL implementation for the RERS 2017 problems: https://github.com/Meijuh/RERS2017/releases/tag/NFM2018.
 
 All Maven projects may be installed with `mvn install`. However it may be the
 case that for https://github.com/Meijuh/RERS2017-seq-problems the java compiler
